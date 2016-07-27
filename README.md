@@ -1,4 +1,4 @@
-one-page-portfolio
+Portfolio website
 ==================
 
 One page website portfolio using Bootstrap 3.
