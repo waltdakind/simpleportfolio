@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/waltdakind/so-so-portfolio/issues"
   },
-  "homepage": "https://github.com/waltdakind/so-so-portfolio#readme"
+  "homepage": "https://github.com/waltdakind/so-so-portfolio#readme",
+  "dependencies": {
+    "forever": "^0.15.2"
+  }
 }
