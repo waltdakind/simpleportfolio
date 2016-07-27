@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Walter Mattingly</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Side Menu -->
+    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-reorder"></i></a>
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle" onClick="ga('send', '_trackEvent', 'Navbar', 'Toggle', 'Navbar toggle');"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand"><a href="#top">Walter Mattingly</a>
+            </li>
+            <li><a href="#about" onClick="ga('send', '_trackEvent', 'Navbar', 'About');">About</a>
+            </li>
+            <li><a href="#portfolio" onClick="ga('send', '_trackEvent', 'Navbar', 'Portfolio');">Portfolio</a>
+            </li>
+            <li><a href="#contact" onClick="ga('send', '_trackEvent', 'Navbar', 'Contact');">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /Side Menu -->
+
+    <!-- Full Page Image Header Area -->
+    <div id="top" class="header">
+        <div class="vert-text">
+            <div class="expandUp">
+                <h1>
+          <div>Hello,</div>
+          <span class="long-word">I am</span>
+          Walter Mattingly.
+        </h1>
+                <h3>Web developer. Mycology enthusiast. Caretaker of many rabbits.</h3>
+            </div>
+            <ul class="list-inline spaced">
+                <li><a href="https://github.com/waltdakind" target="_blank" title="Github" alt="Github" onClick="ga('send', '_trackEvent', 'Links', 'Github', 'Github top');"><i class="fa fa-github fa-3x"></i></a>
+                </li>
+                <li><a href="http://stackoverflow.com/users/4704114/walter-mattingly" target="_blank" title="Stackoverflow" alt="Stackoverflow" onClick="ga('send', '_trackEvent', 'Links', 'Stackoverflow', 'Stackoverflow top');"><i class="fa fa-stack-overflow fa-3x"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/waltermattingly" target="_blank" title="LinkedIn" alt="LinkedIn" onClick="ga('send', '_trackEvent', 'Links', 'LinkedIn', 'LinkedIn top');"><i class="fa fa-linkedin fa-3x"></i></a>
+                </li>
+                <li><a href="mailto:waltdakind@gmail.com" title="Email me" alt="Email me" target="_blank" onClick="ga('send', '_trackEvent', 'Links', 'Email', 'Email top');"><i class="fa fa-envelope-o fa-3x"></i></a>
+                </li>
+
+            </ul>
+            <a href="#about" class="btn btn-default btn-lg call-to" onClick="ga('send', '_trackEvent', 'Links', 'What else');">More?</a>
+
+        </div>
+
+    </div>
+    <!-- /Full Page Image Header Area -->
+
+    <!-- Intro -->
+    <div id="about" class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2  col-md-offset-2 text-center">
+                    <div class="pixelMe toSlideRight" /></div>
+            </div>
+            <div class="col-md-6 text-center">
+                <h2>Experienced full stack developer, non-profit administrator, general IT geek</h2>
+                <p class="lead">I enjoy learning new technologies, experiencing new things, and being a part of the Open Source community.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <h3>Technical Summary</h3>
+                <hr>
+                <dl class="dl-horizontal lead">
+                    <dt>Web Development</dt>
+                    <dd>HTML 5, CSS 3, Sass, Bootstrap, JavaScript, Materialize, jQuery, React JS, Gulp, node.js</dd>
+                    <dt>Databases</dt>
+                    <dd>MySQL, MongoDB, FireBase</dd>
+                </dl>
+                <a href="#contact" onClick="ga('send', '_trackEvent', 'Links', 'See more');">See more <i class="fa fa-level-down"></i></a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- /Intro -->
+    <div class="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h2>Recent Work</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio" class="callout">
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="img/sitevsite.PNG" alt="...">
+                  <div class="caption">
+                      <h3>Site V. Site</h3>
+                      <p>An RPG that give representations of web analytics as part of the  <a href="http://site-v-site.herokuapp.com">game</a>. Uses MySQL as database.</p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="img/deadscrape.jpg" alt="...">
+                    <div class="caption">
+                        <h3>DeadScrape</h3>
+                        <p>A simple scrape of Grateful Dead concert data into a <a href="http://deadscrape.herokuapp.com"> web interface</a>  for adding your notes abot your expereinces!</p>
+                        <p>Mongo, Express, Handlebars</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div>
+                      <img src="img/trendgetter.PNG" alt="...">
+                      <div class="caption">
+                          <h3>TrendGetter</h3>
+                          <p>A quick way to find out more about things that are trending. Try it <a href="http://trendgetter.herokuapp.com/">here</a></p>
+                          <p>Firebase, Javascript, jQuery</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Portfolio -->
+
+    <!-- Findoutmore -->
+    <div id="contact" class="call-to-action">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Findoutmore -->
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+            
+
+                    <ul class="list-inline">
+                        <li><a href="https://github.com/waltdakind" target="_blank" title="Github" alt="Github" onClick="ga('send', '_trackEvent', 'Links', 'Github', 'Github bottom');"><i class="fa fa-github fa-2x"></i></a>
+                        </li>
+                        <li><a href="http://stackoverflow.com/users/4704114/walter-mattingly" target="_blank" title="Stackoverflow" alt="Stackoverflow" onClick="ga('send', '_trackEvent', 'Links', 'Stackoverflow', 'Stackoverflow bottom');"><i class="fa fa-stack-overflow fa-2x"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/waltermattingly" target="_blank" title="LinkedIn" alt="LinkedIn" onClick="ga('send', '_trackEvent', 'Links', 'LinkedIn', 'LinkedIn bottom');"><i class="fa fa-linkedin fa-2x"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled size-m">
+                        <li><i class="fa fa-map-marker"></i> Greater NYC Area</li>
+                        <li><i class="fa fa-envelope-o"></i> <a href="mailto:waltdakind@gmail.com" target="_blank" onClick="ga('send', '_trackEvent', 'Links', 'Email', 'Email bottom');">waltdakind@gmail.com</a>
+                        </li>
+                    </ul>
+                    <div class="top-scroll">
+                        <a href="#top" title="Back to top" alt="Back to top"><i class="fa fa-angle-double-up scroll fa-4x"></i></a>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.scrolldepth.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
