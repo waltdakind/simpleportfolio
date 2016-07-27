@@ -2,10 +2,12 @@
 
     // set up ========================
     var express  = require('express');
-    var app      = express();                             
+    var app      = express();
     var morgan = require('morgan');
     var bodyParser = require('body-parser');
     var methodOverride = require('method-override');
+
+    var port = process.env.PORT || 8080;
     // configuration =================
 
     app.use(express.static(__dirname + '/public'));                 // set the static files location /public/img will be /img for users
@@ -16,5 +18,5 @@
     app.use(methodOverride());
 
     // listen (start app with node server.js) ======================================
-    app.listen(80);
-    console.log("App listening on port 8080");
+    app.listen(port);
+    console.log("App listening on port" + process.env.PORT);
